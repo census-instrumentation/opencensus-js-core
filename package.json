@@ -1,0 +1,30 @@
+{
+  "name": "@opencensus/js-core",
+  "version": "0.0.1",
+  "description": "[![Gitter chat][gitter-image]][gitter-url]",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "census-instrumentation/opencensus-js-core",
+  "files": [
+    "build/src",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "census",
+    "opencensus",
+    "tracing",
+    "trace",
+    "instrumentation",
+    "stats"
+  ],
+  "author": "See AUTHORS file.",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/census-instrumentation/opencensus-js-core/issues"
+  },
+  "homepage": "https://github.com/census-instrumentation/opencensus-js-core#readme"
+}
