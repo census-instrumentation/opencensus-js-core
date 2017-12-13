@@ -22,7 +22,7 @@
     "stats"
   ],
   "author": "See AUTHORS file.",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/census-instrumentation/opencensus-js-core/issues"
   },
