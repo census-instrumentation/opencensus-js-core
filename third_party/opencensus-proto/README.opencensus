@@ -1,0 +1,16 @@
+URL: https://github.com/census-instrumentation/opencensus-proto/commit/c7719050f46216eebc13fb4f1843b1b3b2795162
+Version: https://github.com/census-instrumentation/opencensus-proto/commit/c7719050f46216eebc13fb4f1843b1b3b2795162
+License: Apache-2.0
+License File: # LICENSE
+Description:
+       Language Independent Interface Types For Census
+Local Modifications:
+       README.opencensus was added.
+
+       Imported as a git-subtree.
+       $ git remote add -f opencensus-proto https://github.com/census-instrumentation/opencensus-proto.git
+       $ git subtree add --prefix third_party/opencensus-proto opencensus-proto master --squash
+
+       To update from upstream on an ongoing basis:
+       $ git fetch opencensus-proto
+       $ git subtree pull --prefix third_party/opencensus-proto opencensus-proto master --squash
