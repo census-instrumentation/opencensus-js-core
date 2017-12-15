@@ -12,7 +12,10 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run check"
+    "posttest": "npm run check",
+    "proto": "npm run proto:stats && npm run proto:trace",
+    "proto:stats": "pbjs -t static-module -w commonjs third_party/opencensus-proto/stats/stats.proto | pbts -o interfaces/stats.d.ts -",
+    "proto:trace": "pbjs -t static-module -w commonjs third_party/opencensus-proto/trace/trace.proto | pbts -o interfaces/trace.d.ts -"
   },
   "repository": "census-instrumentation/opencensus-js-core",
   "files": [
@@ -36,6 +39,7 @@
   "homepage": "https://github.com/census-instrumentation/opencensus-js-core#readme",
   "devDependencies": {
     "gts": "^0.5.2",
+    "protobufjs": "~6.8.3",
     "typescript": "~2.6.1"
   }
 }
