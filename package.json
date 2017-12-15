@@ -5,7 +5,14 @@
   "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no tests exist yet\" && exit 0"
+    "test": "echo \"Error: no tests exist yet\" && exit 0",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
   },
   "repository": "census-instrumentation/opencensus-js-core",
   "files": [
@@ -26,5 +33,9 @@
   "bugs": {
     "url": "https://github.com/census-instrumentation/opencensus-js-core/issues"
   },
-  "homepage": "https://github.com/census-instrumentation/opencensus-js-core#readme"
+  "homepage": "https://github.com/census-instrumentation/opencensus-js-core#readme",
+  "devDependencies": {
+    "gts": "^0.5.2",
+    "typescript": "~2.6.1"
+  }
 }

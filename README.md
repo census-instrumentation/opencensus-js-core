@@ -1,4 +1,5 @@
 # OpenCensus - A stats collection and distributed tracing framework
+[![style badge][gts-image]][gts-url]
 [![Gitter chat][gitter-image]][gitter-url]
 
 OpenCensus is a toolkit for collecting application performance and behavior data. It currently 
@@ -11,3 +12,5 @@ project.
 
 [gitter-image]: https://badges.gitter.im/census-instrumentation/lobby.svg
 [gitter-url]: https://gitter.im/census-instrumentation/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+[gts-image]: https://img.shields.io/badge/code%20style-Google-blue.svg
+[gts-url]: https://www.npmjs.com/package/gts
